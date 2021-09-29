@@ -1,0 +1,79 @@
+body{
+    padding: 40px;
+    
+}
+
+.body-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    display: block;
+    width: 500px;
+    height: 550px;
+    margin: 20px;
+    padding: 20px;
+    background: rgb(4, 0, 36);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 4px 4px 5px rgb(104, 104, 104);
+    border-radius: 5px;
+
+}
+
+
+.box1 img{
+    width: 100%;
+    border-radius: 5%;
+}
+.box1 h1, p{
+    color: #fff;
+    margin: 15px;
+   
+}
+.rating {
+   margin: 15px;
+}
+
+.fa {
+color: #ff5722;
+}
+.reviews{
+    margin: 10px;
+    color: #fff;
+    font-size: bold;
+}
+
+ h3{
+     width: 200px;
+     height: 30px;
+     padding-top: 10px;
+     margin: 12px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    text-align: center;
+    background-color: red;
+}
+a{
+    color:#fff;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

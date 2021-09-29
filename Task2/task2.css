@@ -1,0 +1,20 @@
+table,
+th,
+td {
+  padding: 5px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 700px;
+  font-weight: bold;
+  color: rgba(10, 83, 143, 0.877);
+  background-color: lightblue;
+}
+.container {
+  text-align: center;
+}
+h3{
+  margin-left: 200px;}
+
+
+p{
+  margin-left: 280px;}
