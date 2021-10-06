@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display:block;
+    margin: 0;
+   }
+
+  .container{
+      margin: 60px;
+     
+  }
+
+  .pro{
+   
+    font-size: 50px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: gray;
+   padding-bottom: 10px;
+  }
+
+  .dosug{
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 70px;
+      margin: 20px;
+      color: #fff;
+  }
+  
+.box1{
+    width: 47%;
+    min-height: 300px;
+    background-image:url(./images/city2.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%; 
+    backdrop-filter: blur(20px);
+    float: left ;
+    margin: 10px;
+}
+    
+.box2{
+    width: 47%;
+    min-height: 300px;
+    background-image: url(./images/dreamcity.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+    float: left ;
+    margin: 10px;
+
+}
+
+.box3{
+    width: 22%;
+    min-height: 300px;
+    background-image: url(./images/kun.uz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+    float: left ;
+    margin: 10px;
+
+}
+
+.box4{
+    width: 40%;
+    min-height: 300px;
+    background-image: url(./images/tashkent__city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+    float: left ;
+    margin: 10px;
+
+}
+
+.box5{
+    width: 30%;
+    min-height: 300px;
+    background-image: url(./images/TNA_3a35ff3e-0image_story.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+    float: left ;
+    margin: 10px;
+
+}
+.all-project a{
+    width: 140px;
+    border: 1px solid black;
+    background-color: rgba(0, 5, 15, 0.8);
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    
+
+}
+img{
+    width: 16px;
+    margin: 3px;
+}
