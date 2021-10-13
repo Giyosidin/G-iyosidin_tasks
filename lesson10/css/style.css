@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(/lesson10/fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(/lesson10/fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(/lesson10/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url(/lesson10/fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(/lesson10/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-Black;
+  src: url(/lesson10/fonts/Montserrat-Black.ttf);
+}
+
+body {
+  background-color: #fafafa;
+  font-family: Montserrat-Medium;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.btn {
+  font-family: Montserrat-Medium;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 18px 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-dark {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000;
+}
+.btn-dark:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+nav {
+  padding: 23px 0;
+  background-color: #fff;
+  border: 1px solid #f3f3f3;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
+}
+
+.logo {
+  width: 165px;
+  height: 44.59px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .col-left {
+  display: flex;
+  align-items: center;
+}
+
+nav .col-left .col:nth-child(2) {
+  margin-left: 101.62px;
+  display: flex;
+}
+nav .col-left .col:nth-child(2) h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  font-family: Montserrat-Regular;
+  margin-left: 20px;
+}
+
+nav .col-right div {
+  display: flex;
+}
+
+nav .col-right .user-photo {
+  width: 50px;
+  height: 50px;
+  opacity: 0.9;
+  border-radius: 35px;
+  background-size: cover;
+}
+
+nav .col-right img {
+  margin-left: 38px;
+}
+
+/* header article */
+
+.header-article {
+  padding: 60px;
+}
+
+.header-article .col-left h1 {
+  font-size: 55px;
+  line-height: 65px;
+  font-family: Montserrat-ExtraBold;
+  margin-bottom: 13px;
+}
+.header-article .col-left p {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Montserrat-Medium;
+}
+.header-article-bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.header-article-bottom h6 {
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  margin-left: 22px;
+  display: flex;
+}
+
+.header-article-bottom h6 span {
+  font-family: Montserrat-Bold;
+  margin-left: 5px;
+  margin-right: 16px;
+}
+
+.header-article .col-right img {
+  width: 318px;
+  height: 337.57px;
+}
+
+/* bottom-boxes */
+
+
+.header-image .image  {
+  width: 1200px;
+  height: 570px;
+  background-color: antiquewhite;
+  background-image: url(/lesson10/images/Mask\ Copy.png);
+}
+
+.header-image .inline-box{
+  width: 1000px;
+  height: 150px;
+  background: #FFFFFF;
+  box-shadow: -5px 35px 65px rgba(185, 185, 185, 0.13);
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-left: 100px;
+  margin-top: -25px;
+}
+
+.content1 h1 {
+  font-size: 45px;
+  line-height: 55px;
+  font-family: Montserrat-ExtraBold;
+  margin-top: 151px;
+  margin-bottom: 13px;
+}
+.content1 p {
+  font-size: 25px;
+  line-height: 38px;
+  font-family: Montserrat-Medium;
+  margin-bottom: 72px;
+}
+
+.content-boxes .display {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-frame {
+  margin: 10px;
+  width: 546px;
+  height: 399px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding-left: 49px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-frame .col-left h6 {
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 109px;
+}
+.box-frame .col-left h1 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.box-frame .col-right img {
+  width: 141.96px;
+  height: 141.96px;
+  padding-top: 48px;
+  padding-left: 106px;
+}
+.box-frame .box-frame-bottom {
+ display: flex;
+
+}
+.box-frame-bottom .content{
+  margin-right: 30px;
+}
+.btn-bottom{
+  width: 157px;
+  height: 60px;
+  background: #000000;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.box-frame-bottom .content p{
+  margin-bottom: 6px;
+}
+
