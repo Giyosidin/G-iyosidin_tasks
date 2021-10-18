@@ -34,7 +34,7 @@
   body {
     background-color: #fafafa;
     font-family: Montserrat-Medium;
-    height: 3000px;
+    height: 9000px;
   }
 
   .video-section{
@@ -214,10 +214,7 @@
   line-height: 38px;
   letter-spacing: -0.02em;
 }
- .image-box{
-   display: flex;
-   /* flex-wrap: wrap; */
- }
+
   .image-box .box1{
     width: 800px;
     height: 548px;
@@ -225,7 +222,6 @@
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 10px;
-    margin-top: 59px ;
     
   }
 
@@ -248,12 +244,12 @@
 
 .image-box .box2{
   width: 800px;
-height: 548px;
-background: linear-gradient(1.07deg, #A98661 0.8%, rgba(255, 255, 255, 0) 98.99%), url(/Task11/images/down-bg2.png);
-background-size: cover;
-border: 1px solid #ECECEC;
-box-sizing: border-box;
-border-radius: 10px;
+  height: 548px;
+  background: linear-gradient(1.07deg, #A98661 0.8%, rgba(255, 255, 255, 0) 98.99%), url(/Task11/images/down-bg2.png);
+  background-size: cover;
+  border: 1px solid #ECECEC;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 
 .image-box .box2 h4{
@@ -266,9 +262,130 @@ border-radius: 10px;
   color: #FFFFFF;
 }
 .image-box .box2 p{
-font-family:  Montserrat-Light ;
-margin-left: 54px;
-font-size: 18px;
-line-height: 26px;
-color: #FFFFFF;
+  font-family:  Montserrat-Light ;
+  margin-left: 54px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.container-overflow{
+  display: flex;
+  
+}
+.container-overflow .image-box{
+  margin-top: 59px;
+  margin-right: 29px;
+  overflow: hidden;
+}
+
+/* Mentorlar Qismi */
+
+.mentors .title-mentors{
+  margin-top: 150px;
+}
+.title-mentors h1{
+ font-family: Montserrat-ExtraBold;
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: -0.02em;
+}
+
+.title-mentors p{
+  font-size: 25px;
+  line-height: 38px;
+  letter-spacing: -0.02em;
+  margin-top: 17px ;
+}
+.container-king{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.container-mentors{
+  
+  position: relative;
+ 
+}
+.container-mentors .col-mentors{
+  width: 356px;
+  height: 335px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
+}
+.col-mentors img{
+  position: absolute;
+  top: 35px;
+  left: 105px;
+}
+ .col-mentors .col-title{
+  position: absolute;
+  top: 214px;
+  left: 60px; 
+  text-align: center;
+  
+} 
+.col-title h4{
+  font-size: 20px;
+  line-height: 25px;
+}
+.col-mentors .nzinsoft{
+  position: relative;
+  top: 292px;
+  left: 132px;
+}
+/* Bitiruvchilar */
+
+.stack-title h1{
+  margin-top: 175px;
+  margin-bottom: 32px;
+  font-size: 45px;
+  line-height: 55px;
+  font-family:Montserrat-ExtraBold ;
+  letter-spacing: -0.02em;
+}
+.stack-title p{
+  font-size: 25px;
+  line-height: 38px;
+  letter-spacing: -0.02em;
+  margin-bottom: 42px;
+}
+.stack-resume-box{
+  width: 1110px;
+  height: 677px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 1px solid #000;
+  display: flex;
+  position: relative;
+}
+.stack-resume-box img{
+  width: 99px;
+  height: 99px;
+  margin: 45px 41px;
+}
+.stack-title2{
+  margin-top: 55px;
+}
+
+.stack-resume-box .line2{
+  width: 860px;
+  height: 0px;
+  border: 2px solid #000000;
+  position: absolute;
+  top: 190px;
+  left:185px
+}
+.stack-resume-box .sertifikat{
+  width:278px ;
+  height: 196px;
+  background: url(Silver.png);
+ filter: drop-shadow(-5px 35px 45px rgba(185, 185, 185, 0.35));
+ position: absolute;
+ top: 48px ;
+ left: 737px;
+
 }
