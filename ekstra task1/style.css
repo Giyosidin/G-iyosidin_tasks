@@ -1,11 +1,16 @@
 body{
     background-color: #fff !important;
+    height: 5000px ;
 }
 
 .navbar-title{
     margin-bottom: 90px;
 }
-
+.navbar-brand img{
+    margin-top: 30px ;
+    width: 199.48px;
+    height: 40px;
+}
 .navbar-custom a{
     height: 20px;
     font-weight: bold;
@@ -193,4 +198,132 @@ body{
     position: absolute;
     right: 75px;
     top: 30px;
+}
+
+.custom-footer{
+    margin-top: 600px;
+}
+.custom-card img{
+    width: 100px;
+    height: 69px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.custom-card{
+    width: 151px;
+    height: 97px;
+    background: #fff;
+    position: relative;
+    margin-left: 135px ;
+}
+.custom-card-title h4{
+    text-align: center;
+    height: 36px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.750316px;
+    color: #19191B;
+}
+.custom-card-title p{
+    text-align: center;
+    height: 48px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.500211px;
+    color: #696871;
+}
+.custom-footer-card{
+    margin-top: 150px;
+}
+.footer-h h1{
+    height: 140px;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+    margin-left: 40px;
+}
+
+.button-footer{
+  width: 344px !important;
+  height: 50px !important;
+  margin-top: 50px;
+  border-radius: 10px !important;
+} 
+.button-footer .left{
+    background-color: #5454D4 ;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.button-footer .right{
+    background-color: #F7F7FB;
+    font-weight: bold;
+    font-size: 16px;
+}
+ /* end */
+.end{
+    margin-top: 98px;
+}
+.ender{
+    margin-left: 60px;
+}
+
+.custom-end-card{
+    width: 330px !important;
+    height: 421px !important;
+    background-color: #F8F8F8;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.custom-end-card h6{
+    margin-top: 34px;
+    margin-bottom: 22px;
+    height: 28px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.562737px;
+    color: #696871;
+}
+.custom-end-card h1{
+    margin-bottom: 28px;
+    height: 56px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 56px;
+    letter-spacing: -1.03448px;
+    color: #1D293F;
+}
+
+.button-end button{
+    margin-top: 36px;
+    width: 285px !important;
+    height: 50px !important ;
+    background-color: #fff ;
+    color: #5454D4;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.custom-end-card:nth-child(2){
+    width: 376px !important;
+    height: 473px !important;
+    background: #FF7143;
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+    border-radius: 10px;
+    margin-top: 0px !important;
+}
+
+.custom-end-card:nth-child(2) button{
+    background: #9F3919;
 }
