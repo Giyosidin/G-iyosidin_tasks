@@ -65,14 +65,14 @@ $colorViolet: #800a7a;
     -webkit-mask-image: url("../icons/plus.svg");
   }
 
-  &.icon-play-market {
-    mask-image: url("/maxway/icons/play-market.svg");
-    -webkit-mask-image: url("/maxway/icons/play-market.svg");
+  &.icon-play{
+    mask-image: url("../icons/play-market.svg");
+    -webkit-mask-image: url("../icons/play-market.svg");
   }
 
   &.icon-apple {
-    mask-image: url("/maxway/icons/apple.svg");
-    -webkit-mask-image: url("/maxway/icons/apple.svg");
+    mask-image: url("../icons/apple.svg");
+    -webkit-mask-image: url("../icons/apple.svg");
   }
 
   &.icon-you-tube {
@@ -536,7 +536,7 @@ body {
                   width: 182.72px;
                   height: 46.2px;
                   background-color: $colorWhite;
-                   
+                  
                 }
 
                 &:hover {
