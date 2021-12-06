@@ -98,6 +98,7 @@ body .header-content .container-fluid .content-title button:hover {
 }
 
 body .header-down .container {
+  position: relative;
   margin-top: 106px;
 }
 
@@ -174,5 +175,15 @@ body .header-down .container .owl-carousel-1 .item .card-content .custom-btn-2:h
 
 body .header-down .container .owl-carousel-1 .item .card-content item:nth-child(2) {
   background-image: url(../images/kross-2.png);
+}
+
+body .header-down .container .owl-carousel-1.owl-carousel {
+  position: initial;
+}
+
+body .header-down .container .owl-carousel-1.owl-carousel .owl-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 /*# sourceMappingURL=custom.css.map */

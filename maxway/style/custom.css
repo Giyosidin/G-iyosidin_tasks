@@ -61,9 +61,9 @@
   -webkit-mask-image: url("../icons/plus.svg");
 }
 
-.icon.icon-play {
-  mask-image: url("../icons/play-market.svg");
-  -webkit-mask-image: url("../icons/play-market.svg");
+.icon.icon-googleplay {
+  mask-image: url("../icons/googleplay.svg");
+  -webkit-mask-image: url("../icons/googleplay.svg");
 }
 
 .icon.icon-apple {
