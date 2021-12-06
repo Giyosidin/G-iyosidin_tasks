@@ -13,8 +13,166 @@
   src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
 }
 
-body .navbar .container .nav-icon .puma {
-  width: 36.31px;
-  height: 20.55px;
+body {
+  background-color: #f0eaea98;
+  font-family: SFPRODISPLAYREGULAR !important;
+  height: 5000px;
+}
+
+body .container .collapse ul li {
+  margin-right: 50px;
+  font-size: 16px;
+  line-height: 19px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+  opacity: 0.4;
+}
+
+body .container .collapse .nav-icon .puma {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  margin-right: 221px;
+}
+
+body .container .collapse .nav-icons img {
+  margin-left: 55px;
+}
+
+body .header-content {
+  background-image: url(../images/background-1.png);
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .header-content .container-fluid .content-title {
+  margin-top: 163px;
+  margin-left: 122px;
+}
+
+body .header-content .container-fluid .content-title h1 {
+  font-family: SFPRODISPLAYBOLD;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+body .header-content .container-fluid .content-title h2 {
+  font-size: 26px;
+  line-height: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+body .header-content .container-fluid .content-title button {
+  width: 289px;
+  height: 61px;
+  margin-top: 62px;
+  background: #fff;
+  color: #000000;
+  border: none;
+}
+
+body .header-content .container-fluid .content-title button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+body .header-down .container {
+  margin-top: 106px;
+}
+
+body .header-down .container .title {
+  font-style: bolder;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+body .header-down .container .owl-carousel-1 .item {
+  background: #fff;
+  min-height: 450px;
+  width: 592px;
+}
+
+body .header-down .container .owl-carousel-1 .item .card-image {
+  width: 460px;
+  height: 350px;
+  background-image: url(../images/kross-1.png);
+  margin-left: 66px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .header-down .container .owl-carousel-1 .item .card-content {
+  margin-left: 30px;
+  margin-top: -38px;
+}
+
+body .header-down .container .owl-carousel-1 .item .card-content h5 {
+  font-family: SFPRODISPLAYBOLD;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+body .header-down .container .owl-carousel-1 .item .card-content h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+body .header-down .container .owl-carousel-1 .item .card-content .custom-btn-2 {
+  width: 109px;
+  height: 40px;
+  padding: 6px 32px;
+  background: #000000;
+  color: #fff;
+  border: none;
+}
+
+body .header-down .container .owl-carousel-1 .item .card-content .custom-btn-2:hover {
+  background-color: violet;
+  color: #000000;
+}
+
+body .header-down .container .owl-carousel-1 .item .card-content item:nth-child(2) {
+  background-image: url(../images/kross-2.png);
 }
 /*# sourceMappingURL=custom.css.map */

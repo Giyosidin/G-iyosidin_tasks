@@ -10,19 +10,158 @@
   font-family: SFPRODISPLAYREGULAR;
   src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
 }
-
-$colorWhite: #e5e5e5;
+$colorLight: #fff;
+$colorWhite: #f0eaea98;
 $colorDark: #000000;
 
 body {
-    font-family: SFPRODISPLAYREGULAR ;
-  .navbar {
-    .container {
+  background-color: $colorWhite;
+  font-family: SFPRODISPLAYREGULAR !important;
+  height: 5000px;
+  .container {
+    .collapse {
+      ul {
+        li {
+          margin-right: 50px;
+          font-size: 16px;
+          line-height: 19px;
+          align-items: center;
+          letter-spacing: -0.02em;
+          color: #000000;
+          opacity: 0.4;
+        }
+      }
       .nav-icon {
         .puma {
-          width: 36.31px;
-          height: 20.55px;
-          margin-left: ;
+          width: 60px;
+          height: 60px;
+          text-align: center;
+          margin-right: 221px;
+        }
+      }
+      .nav-icons {
+        img {
+          margin-left: 55px;
+        }
+      }
+    }
+  }
+  .header-content {
+    background-image: url(../images/background-1.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container-fluid {
+      .content-title {
+        margin-top: 163px;
+        margin-left: 122px;
+        h1 {
+          font-family: SFPRODISPLAYBOLD;
+          font-weight: 800;
+          font-size: 50px;
+          line-height: 60px;
+          display: flex;
+          align-items: center;
+          letter-spacing: -0.02em;
+          color: $colorLight;
+        }
+        h2 {
+          font-size: 26px;
+          line-height: 31px;
+          display: flex;
+          align-items: center;
+          letter-spacing: -0.02em;
+          color: $colorLight ;
+        }
+        button {
+          width: 289px;
+          height: 61px;
+          margin-top: 62px;
+          background: $colorLight ;
+          color: $colorDark;
+          border: none;
+          &:hover{
+            background-color: $colorDark;
+            color: $colorLight;
+          }
+        }
+        
+      }
+    }
+  }
+  .header-down{
+     .container {
+       margin-top: 106px;
+       .title{
+        font-style: bolder;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        align-items: center;
+        text-transform: uppercase;
+        color: $colorDark;
+        margin-bottom: 40px;
+       }
+        .owl-carousel-1{
+          .item{
+            background: $colorLight;
+            min-height:450px;
+            width: 592px;
+
+           .card-image{
+            width: 460px;
+            height: 350px;
+            background-image: url(../images/kross-1.png);
+            margin-left: 66px;
+            background-repeat: no-repeat;
+            background-size: cover;
+           }
+
+           .card-content {
+             margin-left: 30px;
+             margin-top: -38px;
+             h5{
+               font-family:SFPRODISPLAYBOLD ;
+              font-weight: 600;
+              font-size: 22px;
+              line-height: 26px;
+              align-items: center;
+              text-transform: capitalize;
+              color: $colorDark;
+             }
+             h6{
+              font-style: normal;
+              font-weight: normal;
+              font-size: 14px;
+              line-height: 17px;
+              align-items: center;
+              text-transform: capitalize;
+              color: $colorDark;
+             }
+             .custom-btn-2 {
+               width: 109px;
+               height: 40px;
+               padding: 6px 32px;
+              background: $colorDark ;
+              color: $colorLight;
+              border: none;
+
+              &:hover{
+                background-color: violet;
+                color: $colorDark;
+              }
+             }
+             item:nth-child(2){
+               background-image: url(../images/kross-2.png);
+
+             }
+             
+             
+             
+
+          }
+          
         }
       }
     }
