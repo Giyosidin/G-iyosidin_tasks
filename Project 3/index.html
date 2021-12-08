@@ -65,7 +65,7 @@
         </div>
       </section>
 
-      <section class="header-down">
+      <section class="header-down ">
         <div class="container">
           <h2 class="title">Popular product</h2>
           
@@ -102,6 +102,63 @@
         </div>
       </section>
 
+      <section class="tab-header">
+        <div class="container">
+          <h2 tab-title>New  in RS</h2>
+
+          <div class="owl-carousel owl-theme owl-carousel-2">
+
+            <div class="item">
+              <div class="tab-card">
+                <div class="tab-image"></div>
+                <div class="tab-content ">
+                  <h5>RS-Fast INTL Game</h5>
+                  <h4>$110.00</h4>
+                  <button type="button" class="btn btn-primary btn-lg custom-btn-3"><img src="icons/bag-mn.svg" alt=""></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="tab-card">
+                <div class="tab-image"></div>
+                <div class="tab-content ">
+                  <h5>RS-Fast INTL Game</h5>
+                  <h4>$110.00</h4>
+                  <button type="button" class="btn btn-primary btn-lg custom-btn-3"><img src="icons/bag-mn.svg" alt=""></button>
+                
+                </div>
+              </div>
+            </div> 
+            <div class="item">
+              <div class="tab-card">
+                <div class="tab-image"></div>
+                <div class="tab-content ">
+                  <h5>RS-Fast INTL Game</h5>
+                  <h4>$110.00</h4>
+                  <button type="button" class="btn btn-primary btn-lg custom-btn-3"><img src="icons/bag-mn.svg" alt=""></button>
+                
+                </div>
+              </div>
+            </div> 
+            <div class="item">
+              <div class="tab-card">
+                <div class="tab-image"></div>
+                <div class="tab-content ">
+                  <h5>RS-Fast INTL Game</h5>
+                  <h4>$110.00</h4>
+                  <button type="button" class="btn btn-primary btn-lg custom-btn-3"><img src="icons/bag-mn.svg" alt=""></button>
+                
+                </div>
+              </div>
+            </div>
+            
+            
+        </div>
+
+        </div>
+      </section>
+
 </body>
 
 <script src="js/jquery-3.6.0.min.js"></script>
@@ -109,7 +166,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script>
 
-$('.owl-carousel').owlCarousel({
+$('.owl-carousel-1').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -124,6 +181,24 @@ $('.owl-carousel').owlCarousel({
         // 1000:{
         //     items:5
         // }
+    }
+});
+
+$('.owl-carousel-2').owlCarousel({
+    loop:true,
+    margin:5,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+       700 :{
+            items:4
+        }
     }
 });
   

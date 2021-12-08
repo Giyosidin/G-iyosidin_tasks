@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: #f0eaea98;
+  background-color: aliceblue;
   font-family: SFPRODISPLAYREGULAR !important;
   height: 5000px;
 }
@@ -173,10 +173,6 @@ body .header-down .container .owl-carousel-1 .item .card-content .custom-btn-2:h
   color: #000000;
 }
 
-body .header-down .container .owl-carousel-1 .item .card-content item:nth-child(2) {
-  background-image: url(../images/kross-2.png);
-}
-
 body .header-down .container .owl-carousel-1.owl-carousel {
   position: initial;
 }
@@ -185,5 +181,86 @@ body .header-down .container .owl-carousel-1.owl-carousel .owl-nav {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+body .tab-header {
+  margin-top: 100px;
+}
+
+body .tab-header .container .tab-title {
+  font-weight: 500;
+  font-size: 40px;
+  font-style: bolder;
+  line-height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+body .tab-header .container .owl-carousel-2 {
+  margin-top: 41px;
+}
+
+body .tab-header .container .owl-carousel-2 .item .tab-card {
+  width: 289px;
+  min-height: 349px;
+  background: #fff;
+}
+
+body .tab-header .container .owl-carousel-2 .item .tab-card .tab-image {
+  width: 100%;
+  height: 244px;
+  background-image: url(../images/tab-k1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+body .tab-header .container .owl-carousel-2 .item .tab-card .tab-content {
+  margin: 20px 0 0 20px;
+  position: relative;
+}
+
+body .tab-header .container .owl-carousel-2 .item .tab-card .tab-content h5 {
+  font-family: SFPRODISPLAYMEDIUM;
+  font-size: 16px;
+  line-height: 21px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .tab-header .container .owl-carousel-2 .item .tab-card .tab-content h4 {
+  font-family: SFPRODISPLAYBOLD;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: bold;
+  color: #000000;
+}
+
+body .tab-header .container .owl-carousel-2 .item .tab-card .tab-content .custom-btn-3 {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: #f0eaea98;
+  position: absolute;
+  top: 19px;
+  right: 20px;
+  border: none;
+}
+
+body .tab-header .container .owl-carousel-2 .item .tab-card .tab-content .custom-btn-3 img {
+  margin-left: -2px;
+  width: 18px;
+  height: 21px;
+}
+
+body .tab-header .container .owl-carousel-2 .item .tab-card .tab-content .custom-btn-3:hover {
+  background: violet;
 }
 /*# sourceMappingURL=custom.css.map */
