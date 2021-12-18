@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: aliceblue;
+  background-color: #f0eaea98;
   font-family: SFPRODISPLAYREGULAR !important;
   height: 5000px;
 }
@@ -262,5 +262,52 @@ body .tab-header .container .owl-carousel-2 .item .tab-card .tab-content .custom
 
 body .tab-header .container .owl-carousel-2 .item .tab-card .tab-content .custom-btn-3:hover {
   background: violet;
+}
+
+body .content-1 {
+  margin-top: 100px;
+}
+
+body .content-1 .container-fluid {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/background-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .content-1 .container-fluid .container .content-box h1 {
+  font-family: SFPRODISPLAYBOLD;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 65px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  padding-top: 129px;
+}
+
+body .content-1 .container-fluid .container .content-box h3 {
+  margin-bottom: 70px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+body .content-1 .container-fluid .container .content-box .custom-btn-4 {
+  width: 289px;
+  height: 61px;
+  background: #000000;
+  color: #fff;
+  border: none;
+}
+
+body .content-1 .container-fluid .container .content-box .custom-btn-4:hover {
+  background-color: #fff;
+  color: #000000;
+  border: 1px solid  violet;
 }
 /*# sourceMappingURL=custom.css.map */
