@@ -296,13 +296,13 @@ console.log(friends);
 
 
 
-const birthYears = [1998,1999,2003,1996];
+/*const birthYears = [1998,1999,2003,1996];
  console.log(birthYears);
 
 /*const calcAge = (year) => {
     return 2021- year ;
 };*/
-const calcAge = (year) => 2021- year ;
+/*const calcAge = (year) => 2021- year ;
 
 const age1 = calcAge(birthYears[0]);
 const age2 = calcAge(birthYears[1]);
@@ -310,12 +310,14 @@ const age3 = calcAge(birthYears[2]);
 
 const ages = [age1,age2,age3];
 
-console.log(ages);
+console.log(ages);/*
 
 
 
 
-const bills = [430,555,115,44];
+*/  
+
+/* const bills = [430,555,125,44];
 console.log(`Summalar ${bills}`);
 
 const calcTip = (bills) => bills >= 50 && bills <= 300 ? bills * 0.15 : bills * 0.2 ;
@@ -332,6 +334,50 @@ const total = bills[1] + tips2;
 
 console.log(
     `Hisob ${bills[1]}, choychaqa ${tips2} va umumiy ${total}`
-);
+);*/ 
 
+
+
+
+// Stiven Choychaqa #4
+
+const bills = [22,295,176,440,37,105,10,1100,86,52];
+console.log(bills);
+
+let tips =[],
+ totals =[];
+
+function calcTip(bills){
+  const tips = bills >= 50 && bills <= 300 ? bills * 0.15 : bills * 0.2;
+  return tips;
+}
+
+const choychaqa1 = calcTip(bills[0]);
+const choychaqa2 = calcTip(bills[1]);
+const choychaqa3 = calcTip(bills[2]);
+const choychaqa4 = calcTip(bills[3]);
+const choychaqa5 = calcTip(bills[4]);
+
+console.log(tips,totals);
+
+tips.push(choychaqa1);
+tips.push(choychaqa2);
+tips.push(choychaqa3);
+tips.push(choychaqa4);
+tips.push(choychaqa5);
+
+totals.push (bills[0] + choychaqa1);
+totals.push (bills[0] + choychaqa2);
+totals.push (bills[0] + choychaqa3);
+totals.push (bills[0] + choychaqa4);
+totals.push (bills[0] + choychaqa5);
+
+
+
+
+console.log(`Hisob ${bills[0]}, Choychaqa ${tips[0]}, Umumiy ${totals[0]}`);
+console.log(`Hisob ${bills[1]}, Choychaqa ${tips[1]}, Umumiy ${totals[1]}`);
+console.log(`Hisob ${bills[2]}, Choychaqa ${tips[2]}, Umumiy ${totals[2]}`);
+console.log(`Hisob ${bills[3]}, Choychaqa ${tips[3]}, Umumiy ${totals[3]}`);
+console.log(`Hisob ${bills[4]}, Choychaqa ${tips[4]}, Umumiy ${totals[4]}`);
 
