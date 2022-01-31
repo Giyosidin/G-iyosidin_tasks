@@ -107,7 +107,7 @@ h1 {
 .message {
   margin-bottom: 8rem;
   height: 3rem;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid red;
   color: #333;
 }
 .label-score {
