@@ -98,10 +98,10 @@ let swiperPortfolio = new Swiper(".portfolio_container", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   clickable: true,
+  // },
 });
 
 /*==================== TESTIMONIAL ====================*/
@@ -117,7 +117,7 @@ let swiperTestimonial = new Swiper(".testimonial_container", {
   },
   breakpoints: {
     568: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
   },
 });
